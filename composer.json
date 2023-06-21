@@ -1,0 +1,29 @@
+{
+    "name": "webspero/proton-auth-context",
+    "description": "proton auth service for laravel",
+    "type": "package",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "HomeBloks\\ProtonAuthContext\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HomeBloks\\ProtonAuthContext\\ProtonServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Webspero Admin",
+            "email": "admin@webspero.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
